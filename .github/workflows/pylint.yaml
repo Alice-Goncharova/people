@@ -14,9 +14,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install pylint  # установка pylint для проверки стиля кода
       - name: Activate virtual environment
-        run: source venv/bin/activate
+        run: source ../venv/bin/activate
       - name: Install requirements
-        run: pip install -r requirements.txt
+        run: pip install ../requirements.txt
       - name: Run pylint
         run: |
           pylint google
