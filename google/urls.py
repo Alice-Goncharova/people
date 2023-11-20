@@ -22,3 +22,4 @@ urlpatterns = [
 ]
 
 # Проверка работы pylint
+# Проверка работы pylint
